@@ -1,6 +1,6 @@
 import React from "react";
 import {GoVerified} from  "react-icons/go"
-import {BsChevronDown} from "react-icons/bs"
+import {GrDown} from "react-icons/gr"
 
 function Header(){
     return(
@@ -12,7 +12,7 @@ function Header(){
             <span className="icons"><GoVerified/></span>
             <span className="userName">@SamsungMobile</span>
             <span className="time">&#183; 3h</span>
-            <span className="downArrow"><BsChevronDown/></span>
+            <span className="downArrow"><GrDown/></span>
         </div>
         <div>
         <a href="#/" className="hashtag">
