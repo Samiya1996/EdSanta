@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1d2229;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  padding: 15px;
+}
+
+.displayPic {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+span {
+  margin-right: 5px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 600;
+  color: aliceblue;
+}
+
+.verified {
+  font-size: 20px;
+}
+
+.userName,
+.time,
+.downArrow,
+.icons {
+  color: #afb6bd;
+}
+
+.hashtag {
+  font-size: 18px;
+  color: #3e81b8;
+}
+
+.downArrow {
+  margin-top: 7px;
+}
+.imageContainer {
+  height: fit-content;
+  width:auto;
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.footer {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer > span:nth-child(4) {
+  margin-right: 0px;
+}
+
+.icons > i {
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.icons > .fa-heart:active {
+  color: red;
+}
